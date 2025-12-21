@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "project": "SanTi (sample)",
+    "created": "2025-12-21"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "name": "왕먀오",
+      "aliases": [
+        "Wang Miao"
+      ],
+      "type": "person",
+      "tags": [
+        "삼체",
+        "지구"
+      ],
+      "notes": "나노 소재 과학자."
+    },
+    {
+      "id": "n2",
+      "name": "스창",
+      "aliases": [
+        "Shi Qiang",
+        "다스"
+      ],
+      "type": "person",
+      "tags": [
+        "삼체",
+        "지구"
+      ],
+      "notes": "형사. 별명 '다스'."
+    },
+    {
+      "id": "n3",
+      "name": "예원제",
+      "aliases": [
+        "Ye Wenjie"
+      ],
+      "type": "person",
+      "tags": [
+        "삼체",
+        "지구"
+      ],
+      "notes": "천체물리학자."
+    },
+    {
+      "id": "n4",
+      "name": "ETO",
+      "aliases": [
+        "Earth-Trisolaris Organization"
+      ],
+      "type": "org",
+      "tags": [
+        "삼체",
+        "조직"
+      ],
+      "notes": "지구-삼체 조직."
+    },
+    {
+      "id": "n5",
+      "name": "삼체 문명",
+      "aliases": [
+        "Trisolaris"
+      ],
+      "type": "org",
+      "tags": [
+        "삼체",
+        "외계"
+      ],
+      "notes": "외계 문명."
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source_id": "n1",
+      "target_id": "n2",
+      "relation_type": "협력",
+      "directional": false,
+      "weight": 0.8,
+      "evidence": "1권 초반",
+      "note": "수사/조사 과정에서 협력"
+    },
+    {
+      "id": "e2",
+      "source_id": "n3",
+      "target_id": "n4",
+      "relation_type": "연계",
+      "directional": true,
+      "weight": 0.6,
+      "evidence": "1권 중반",
+      "note": "ETO와 연관"
+    },
+    {
+      "id": "e3",
+      "source_id": "n4",
+      "target_id": "n5",
+      "relation_type": "추종",
+      "directional": true,
+      "weight": 1.0,
+      "evidence": "1권 전반",
+      "note": "삼체 문명을 따름"
+    }
+  ]
+}
